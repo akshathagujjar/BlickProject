@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Akshu19!"/>
+    <parameter name="email" value="akshathasa19@gmail.com"/>
+    <classes>
+      <class name="com.blick.test.BlickSignInTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="executionStarts"/>
+          <include name="signInTest" invocation-numbers="0"/>
+          <include name="executionEnds"/>
+        </methods>
+      </class> <!-- com.blick.test.BlickSignInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

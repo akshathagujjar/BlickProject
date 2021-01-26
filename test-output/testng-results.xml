@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[execution begins]]>
+    </line>
+    <line>
+      <![CDATA[execution ends]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-01-26T00:53:37Z" name="Suite" finished-at="2021-01-26T00:53:55Z" duration-ms="18064">
+    <groups>
+    </groups>
+    <test started-at="2021-01-26T00:53:37Z" name="Test" finished-at="2021-01-26T00:53:55Z" duration-ms="18064">
+      <class name="com.blick.test.BlickSignInTest">
+        <test-method is-config="true" signature="executionStarts()[pri:0, instance:com.blick.test.BlickSignInTest@757acd7b]" started-at="2021-01-26T00:53:37Z" name="executionStarts" finished-at="2021-01-26T00:53:37Z" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution begins]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStarts -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.blick.test.BlickSignInTest@757acd7b]" started-at="2021-01-26T00:53:37Z" name="openBrowser" finished-at="2021-01-26T00:53:48Z" duration-ms="11552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.blick.test.BlickSignInTest@757acd7b]" started-at="2021-01-26T00:53:48Z" name="signInTest" finished-at="2021-01-26T00:53:55Z" duration-ms="6485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akshathasa19@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akshu19!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="executionEnds()[pri:0, instance:com.blick.test.BlickSignInTest@757acd7b]" started-at="2021-01-26T00:54:00Z" name="executionEnds" finished-at="2021-01-26T00:54:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution ends]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionEnds -->
+      </class> <!-- com.blick.test.BlickSignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
